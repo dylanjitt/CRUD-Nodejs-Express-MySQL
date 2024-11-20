@@ -1,7 +1,7 @@
 import mysql from "mysql2/promise";
 
 const pool = mysql.createPool({
-  host: "parcial1devops.c70equao8ydi.us",
+  host: "parcial1devops.c70equao8ydi.us-east-1.rds.amazonaws.com",
   user: "admin",
   password: "D9i4e5g5o", // Coloca tu contraseña de MySQL
   database: "parcial1dyl",
